@@ -1,17 +1,17 @@
 <template>
-  <div id="app">
-    <div id="nav" class="name">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div id="gs_discussion_app">
+    <h1>Discussion Application</h1>
   </div>
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({
-})
+
+  import { Vue, Component } from 'vue-property-decorator'
+
+  export default Vue.extend({
+    components: {
+    }
+  })
 </script>
 
 <style lang="scss" src="./style/index.scss"></style>
