@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import About from '@/pages/about.vue'
 
 Vue.use(Router)
 
@@ -12,11 +13,12 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      redirect: '/about',
     },
     {
-      path: '/gs-home',
-      name: 'gsHome'
-    }
+      path: '/about',
+      name: 'About',
+      component: About,
+    },
   ]
 })

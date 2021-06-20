@@ -15,5 +15,5 @@ new Vue({
   router,
   // store,
   render: (h: any) => h(App)
-}).$mount('#gs_discussion_app')
+}).$mount('#App')
 

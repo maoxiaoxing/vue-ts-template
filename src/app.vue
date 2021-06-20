@@ -1,6 +1,6 @@
 <template>
-  <div id="gs_discussion_app">
-    <h1>Discussion Application</h1>
+  <div id="App">
+    <router-view></router-view>
   </div>
 </template>
 
