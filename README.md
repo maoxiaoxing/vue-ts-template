@@ -1,3 +1,7 @@
-## home-application
+## vue2.x 前端模板
 
-知识库首页应用
+```bash
+npm install
+
+npm run serve-dev
+```
