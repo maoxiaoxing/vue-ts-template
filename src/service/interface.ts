@@ -9,6 +9,8 @@ export interface Options {
   header?: any
   queryParams?: object
   data?: any
+  responseType?: any,
+  handleResponse?: boolean,
 }
 
 interface ResponceData {
@@ -18,4 +20,16 @@ interface ResponceData {
 }
 export interface Responce {
   data: ResponceData
+  headers?: any
+  status?: any
+}
+
+export interface PopTips {
+  title: string
+  cls: string
+  arrowCls?: string
+  content: string
+  stepProgress?: string
+  btnTxt: string,
+  cb?: () => any
 }
